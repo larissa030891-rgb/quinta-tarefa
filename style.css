@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(126, 120, 120);
+
+
+}
+h1{
+    color: black;
+    text-align: center;
+
+}
+
+h2{
+    text-align: center;
+    font-size: 16px;
+}
+
+#obs{
+    color: rgba(255, 255, 0, 0.553);
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+
+}
+
+input{
+    text-align: center;
+    margin-left: 50px;
+}
+
+button{
+    margin-left: 50px;
+    color: white;
+    background-color: black;
+}

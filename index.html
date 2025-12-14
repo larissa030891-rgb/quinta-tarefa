@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parquimêtro</title>
+    <script src="java.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>PARQUIMÊTRO</h1>
+    <h3 id="obs">O tempo mínimo é de 30 minutos e o máximo de 120 minutos</h3>
+
+    <h3>Informe uma dessas 3 opções de tempo e o valor usado para pagar: </h3>
+    <ul>
+  
+        <li>30 minutos: R$ 1,00</li>
+        <li>60 minutos: R$ 1,75</li>
+        <li>120 minutos: R$ 3,00</li>
+    </ul>
+
+    <input type="number" id="tempo" placeholder="Informe o tempo desejado">
+    <input type="number" id="pagamento" placeholder="Informe o valor pago">
+
+    <button onclick="calcular()">Calcular valor</button>
+
+    <h2 id="valor">Total a pagar: </h2>
+    <h2 id="troco">Troco a receber: </h2>
+    
+</body>
+</html>
