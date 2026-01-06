@@ -65,3 +65,5 @@ function calcular(){
     totalPagarElement.textContent = `Total a pagar: R$ ${valorTarifa.toFixed(2)} (Tempo: ${tempo} min)`;
     trocoReceberElement.textContent = `Troco a receber: R$ ${troco.toFixed(2)}`;
 }
+
+//teste
