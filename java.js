@@ -66,4 +66,4 @@ function calcular(){
     trocoReceberElement.textContent = `Troco a receber: R$ ${troco.toFixed(2)}`;
 }
 
-//teste 2
+
